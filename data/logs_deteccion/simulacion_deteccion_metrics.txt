@@ -1,0 +1,9 @@
+--- MÉTRICAS DE LA SIMULACIÓN ---
+Total de Solicitudes: 28
+% de Solicitudes Satisfechas sin Bloqueos: 67.86
+% de Bloqueos Temporales: 32.14
+% de Interbloqueos Detectados: 10.71
+Procesos Víctimas (reiniciados): 3
+Procesos Terminados Exitosamente: 10
+Tiempo Perdido Total (s): 99.72
+Tiempo Promedio de Espera por Proceso (s): 9.97
