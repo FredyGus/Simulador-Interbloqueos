@@ -1,0 +1,360 @@
+[21:09:28] 🧠 Simulación de PREVENCIÓN iniciada.
+[21:09:29] ✅ P6 obtuvo R6. [1/7]
+[21:09:29] ✅ P7 obtuvo R1. [1/3]
+[21:09:30] ✅ P2 obtuvo R7. [1/7]
+[21:09:31] ✅ P6 obtuvo R8. [2/7]
+[21:09:32] ✅ P4 obtuvo R2. [1/5]
+[21:09:32] ⏳ P6 espera R8 (retenido por P6).
+[21:09:33] ⏳ P4 espera R6 (retenido por P6).
+[21:09:34] ⏳ P5 espera R6 (retenido por P6).
+[21:09:35] ⏳ P3 espera R2 (retenido por P4).
+[21:09:35] ⏳ P1 espera R2 (retenido por P4).
+[21:09:36] ✅ P2 obtuvo R3. [2/7]
+[21:09:37] ✅ P3 obtuvo R0. [1/7]
+[21:09:38] ⚠️ PREVENCIÓN: P7 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:09:38] ⚠️ PREVENCIÓN: P2 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:09:39] ⚠️ PREVENCIÓN: P4 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:09:40] ⚠️ PREVENCIÓN: P2 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:09:41] ✅ P8 obtuvo R5. [1/3]
+[21:09:42] ✅ P9 obtuvo R9. [1/4]
+[21:09:42] ⏳ P5 espera R2 (retenido por P4).
+[21:09:43] ⏳ P8 espera R9 (retenido por P9).
+[21:09:44] ⏳ P0 espera R7 (retenido por P2).
+[21:09:45] ⏳ P8 espera R6 (retenido por P6).
+[21:09:45] ⚠️ PREVENCIÓN: P6 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:09:46] ⚠️ PREVENCIÓN: P6 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:09:47] ⚠️ PREVENCIÓN: P7 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:09:48] ⏳ P0 espera R3 (retenido por P2).
+[21:09:49] ⏳ P1 espera R3 (retenido por P2).
+[21:09:49] ⚠️ PREVENCIÓN: P7 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:09:50] ⏳ P1 espera R5 (retenido por P8).
+[21:09:51] ⚠️ PREVENCIÓN: P9 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:09:52] ⏳ P1 espera R0 (retenido por P3).
+[21:09:52] ⚠️ PREVENCIÓN: P9 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:09:53] ⚠️ PREVENCIÓN: P8 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:09:54] ⏳ P5 espera R9 (retenido por P9).
+[21:09:55] ⏳ P0 espera R1 (retenido por P7).
+[21:09:55] ⏳ P3 espera R9 (retenido por P9).
+[21:09:56] ⏳ P6 espera R2 (retenido por P4).
+[21:09:57] ⚠️ PREVENCIÓN: P4 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:09:58] ⚠️ PREVENCIÓN: P9 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:09:59] ⏳ P7 espera R1 (retenido por P7).
+[21:09:59] ⏳ P1 espera R7 (retenido por P2).
+[21:10:00] ⚠️ PREVENCIÓN: P7 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:10:01] ⚠️ PREVENCIÓN: P7 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:10:01] 🔁 P7 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:10:02] ⏳ P1 espera R2 (retenido por P4).
+[21:10:02] ⏳ P1 espera R5 (retenido por P8).
+[21:10:03] ⚠️ PREVENCIÓN: P4 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:10:04] ⚠️ PREVENCIÓN: P2 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:10:05] ⏳ P0 espera R3 (retenido por P2).
+[21:10:06] ⏳ P8 espera R5 (retenido por P8).
+[21:10:06] ⚠️ PREVENCIÓN: P2 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:10:07] ⏳ P0 espera R8 (retenido por P6).
+[21:10:08] ✅ P4 obtuvo R1. [2/5]
+[21:10:09] ⚠️ PREVENCIÓN: P4 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:10:09] ⏳ P5 espera R2 (retenido por P4).
+[21:10:10] ⏳ P5 espera R3 (retenido por P2).
+[21:10:11] ⏳ P8 espera R8 (retenido por P6).
+[21:10:12] ⏳ P8 espera R5 (retenido por P8).
+[21:10:12] ⏳ P3 espera R9 (retenido por P9).
+[21:10:13] ⏳ P3 espera R3 (retenido por P2).
+[21:10:14] ⏳ P6 espera R3 (retenido por P2).
+[21:10:15] ⏳ P3 espera R8 (retenido por P6).
+[21:10:16] ⏳ P7 espera R5 (retenido por P8).
+[21:10:16] ⏳ P0 espera R0 (retenido por P3).
+[21:10:17] ⚠️ PREVENCIÓN: P4 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:10:18] ⚠️ PREVENCIÓN: P4 intentó pedir R3 fuera de orden. Solicitud denegada.
+[21:10:19] ⚠️ PREVENCIÓN: P9 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:10:19] ⏳ P7 espera R5 (retenido por P8).
+[21:10:20] ⏳ P5 espera R1 (retenido por P4).
+[21:10:21] ⚠️ PREVENCIÓN: P3 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:10:22] ⏳ P3 espera R7 (retenido por P2).
+[21:10:23] ⏳ P3 espera R5 (retenido por P8).
+[21:10:23] ⏳ P3 espera R7 (retenido por P2).
+[21:10:24] ⏳ P9 espera R9 (retenido por P9).
+[21:10:25] ⏳ P0 espera R7 (retenido por P2).
+[21:10:26] ⏳ P5 espera R1 (retenido por P4).
+[21:10:26] ⏳ P1 espera R6 (retenido por P6).
+[21:10:27] ⏳ P3 espera R7 (retenido por P2).
+[21:10:28] ⚠️ PREVENCIÓN: P2 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:10:29] ⏳ P5 espera R1 (retenido por P4).
+[21:10:30] ⏳ P6 espera R7 (retenido por P2).
+[21:10:30] ⚠️ PREVENCIÓN: P6 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:10:30] 🔁 P6 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:10:31] ⏳ P2 espera R2 (retenido por P4).
+[21:10:32] ⚠️ PREVENCIÓN: P2 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:10:32] 🔁 P2 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:10:33] ⏳ P2 espera R9 (retenido por P9).
+[21:10:33] ⏳ P7 espera R2 (retenido por P4).
+[21:10:34] ⏳ P9 espera R9 (retenido por P9).
+[21:10:35] ⏳ P7 espera R5 (retenido por P8).
+[21:10:36] ✅ P2 obtuvo R8. [3/7]
+[21:10:37] ⏳ P8 espera R2 (retenido por P4).
+[21:10:37] ⏳ P0 espera R0 (retenido por P3).
+[21:10:38] ⏳ P1 espera R8 (retenido por P2).
+[21:10:39] ⚠️ PREVENCIÓN: P2 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:10:40] ✅ P3 obtuvo R3. [2/7]
+[21:10:40] ✅ P0 obtuvo R4. [1/3]
+[21:10:41] ⚠️ PREVENCIÓN: P3 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:10:42] ⏳ P8 espera R3 (retenido por P3).
+[21:10:43] ⚠️ PREVENCIÓN: P9 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:10:43] 🔁 P9 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:10:44] ⚠️ PREVENCIÓN: P4 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:10:44] ⏳ P6 espera R2 (retenido por P4).
+[21:10:45] ⚠️ PREVENCIÓN: P0 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:10:46] ✅ P7 obtuvo R9. [2/3]
+[21:10:47] ✅ P8 obtuvo R6. [2/3]
+[21:10:47] ⚠️ PREVENCIÓN: P8 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:10:48] ⚠️ PREVENCIÓN: P8 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:10:49] ⚠️ PREVENCIÓN: P8 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:10:50] ⚠️ PREVENCIÓN: P0 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:10:51] ⚠️ PREVENCIÓN: P2 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:10:51] ⚠️ PREVENCIÓN: P0 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:10:52] ⏳ P2 espera R2 (retenido por P4).
+[21:10:53] ⏳ P7 espera R9 (retenido por P7).
+[21:10:54] ⏳ P1 espera R8 (retenido por P2).
+[21:10:54] ⚠️ PREVENCIÓN: P0 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:10:55] ⚠️ PREVENCIÓN: P8 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:10:56] ⚠️ PREVENCIÓN: P8 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:10:57] ⏳ P1 espera R8 (retenido por P2).
+[21:10:58] ⏳ P0 espera R3 (retenido por P3).
+[21:10:58] ⚠️ PREVENCIÓN: P3 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:10:59] ⏳ P0 espera R1 (retenido por P4).
+[21:11:00] ⚠️ PREVENCIÓN: P8 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:11:00] 🔁 P8 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:11:01] ⏳ P8 espera R0 (retenido por P3).
+[21:11:01] ✅ P1 obtuvo R7. [1/7]
+[21:11:02] ⏳ P5 espera R9 (retenido por P7).
+[21:11:03] ⏳ P8 espera R9 (retenido por P7).
+[21:11:04] ⏳ P8 espera R3 (retenido por P3).
+[21:11:05] ⚠️ PREVENCIÓN: P4 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:11:05] ⏳ P8 espera R8 (retenido por P2).
+[21:11:06] ⏳ P7 espera R8 (retenido por P2).
+[21:11:07] ⚠️ PREVENCIÓN: P3 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:11:08] ⚠️ PREVENCIÓN: P4 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:11:08] 🔁 P4 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:11:08] ⏳ P3 espera R7 (retenido por P1).
+[21:11:09] ⚠️ PREVENCIÓN: P2 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:11:10] ⚠️ PREVENCIÓN: P1 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:11:11] ✅ P7 obtuvo R5. [3/3]
+[21:11:11] 🏁 P7 ha completado todas sus solicitudes y liberó sus recursos.
+[21:11:12] ⏳ P1 espera R3 (retenido por P3).
+[21:11:12] ✅ P6 obtuvo R1. [3/7]
+[21:11:13] ⚠️ PREVENCIÓN: P3 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:14] ✅ P1 obtuvo R2. [2/7]
+[21:11:15] ⏳ P5 espera R2 (retenido por P1).
+[21:11:15] ⏳ P4 espera R2 (retenido por P1).
+[21:11:16] ⏳ P8 espera R3 (retenido por P3).
+[21:11:17] ⚠️ PREVENCIÓN: P1 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:11:18] ⏳ P8 espera R2 (retenido por P1).
+[21:11:19] ⚠️ PREVENCIÓN: P3 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:11:19] 🔁 P3 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:11:19] ⏳ P6 espera R8 (retenido por P2).
+[21:11:20] ✅ P6 obtuvo R5. [4/7]
+[21:11:21] ⚠️ PREVENCIÓN: P6 intentó pedir R3 fuera de orden. Solicitud denegada.
+[21:11:22] ⏳ P5 espera R5 (retenido por P6).
+[21:11:22] ⏳ P1 espera R5 (retenido por P6).
+[21:11:23] ⚠️ PREVENCIÓN: P0 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:11:23] 🔁 P0 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:11:24] ⏳ P9 espera R7 (retenido por P1).
+[21:11:25] ✅ P8 obtuvo R0. [3/3]
+[21:11:25] 🏁 P8 ha completado todas sus solicitudes y liberó sus recursos.
+[21:11:26] ⏳ P6 espera R5 (retenido por P6).
+[21:11:26] ⏳ P4 espera R8 (retenido por P2).
+[21:11:27] ⚠️ PREVENCIÓN: P1 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:11:28] ⏳ P3 espera R1 (retenido por P6).
+[21:11:29] ⚠️ PREVENCIÓN: P1 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:29] ✅ P4 obtuvo R0. [3/5]
+[21:11:30] ⚠️ PREVENCIÓN: P2 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:31] ⚠️ PREVENCIÓN: P2 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:11:31] 🔁 P2 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:11:32] ✅ P4 obtuvo R6. [4/5]
+[21:11:32] ✅ P2 obtuvo R8. [4/7]
+[21:11:33] ⏳ P9 espera R5 (retenido por P6).
+[21:11:34] ⚠️ PREVENCIÓN: P1 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:35] ⏳ P0 espera R2 (retenido por P1).
+[21:11:35] ⚠️ PREVENCIÓN: P6 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:11:36] ⚠️ PREVENCIÓN: P4 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:11:37] ⚠️ PREVENCIÓN: P1 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:37] 🔁 P1 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:11:38] ✅ P1 obtuvo R9. [3/7]
+[21:11:39] ⏳ P3 espera R1 (retenido por P6).
+[21:11:39] ⚠️ PREVENCIÓN: P4 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:11:40] ⏳ P9 espera R0 (retenido por P4).
+[21:11:41] ⏳ P5 espera R8 (retenido por P2).
+[21:11:42] ⚠️ PREVENCIÓN: P6 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:42] ⚠️ PREVENCIÓN: P2 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:11:43] ⏳ P3 espera R1 (retenido por P6).
+[21:11:44] ⚠️ PREVENCIÓN: P2 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:45] ✅ P0 obtuvo R2. [2/3]
+[21:11:45] ✅ P3 obtuvo R4. [3/7]
+[21:11:46] ⚠️ PREVENCIÓN: P4 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:11:47] ⏳ P3 espera R4 (retenido por P3).
+[21:11:48] ⏳ P9 espera R8 (retenido por P2).
+[21:11:49] ⚠️ PREVENCIÓN: P2 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:11:49] ⏳ P5 espera R0 (retenido por P4).
+[21:11:50] ⚠️ PREVENCIÓN: P4 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:11:51] ⏳ P0 espera R0 (retenido por P4).
+[21:11:52] ⏳ P3 espera R8 (retenido por P2).
+[21:11:52] ✅ P9 obtuvo R3. [2/4]
+[21:11:53] ⏳ P9 espera R1 (retenido por P6).
+[21:11:54] ⚠️ PREVENCIÓN: P6 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:11:55] ⚠️ PREVENCIÓN: P6 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:11:55] 🔁 P6 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:11:55] ⚠️ PREVENCIÓN: P4 intentó pedir R3 fuera de orden. Solicitud denegada.
+[21:11:56] ✅ P3 obtuvo R5. [4/7]
+[21:11:57] ⚠️ PREVENCIÓN: P3 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:11:58] ⏳ P6 espera R5 (retenido por P3).
+[21:11:59] ⏳ P0 espera R2 (retenido por P0).
+[21:11:59] ✅ P0 obtuvo R1. [3/3]
+[21:11:59] 🏁 P0 ha completado todas sus solicitudes y liberó sus recursos.
+[21:12:00] ⏳ P6 espera R4 (retenido por P3).
+[21:12:01] ⚠️ PREVENCIÓN: P4 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:12:01] 🔁 P4 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:12:02] ⚠️ PREVENCIÓN: P1 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:12:02] ✅ P6 obtuvo R6. [5/7]
+[21:12:03] ⏳ P9 espera R8 (retenido por P2).
+[21:12:04] ⏳ P6 espera R4 (retenido por P3).
+[21:12:05] ⏳ P5 espera R3 (retenido por P9).
+[21:12:06] ⏳ P6 espera R4 (retenido por P3).
+[21:12:06] ✅ P1 obtuvo R7. [4/7]
+[21:12:07] ✅ P2 obtuvo R2. [5/7]
+[21:12:08] ⏳ P3 espera R7 (retenido por P1).
+[21:12:09] ⏳ P1 espera R4 (retenido por P3).
+[21:12:09] ⏳ P3 espera R5 (retenido por P3).
+[21:12:10] ⏳ P5 espera R5 (retenido por P3).
+[21:12:11] ⚠️ PREVENCIÓN: P2 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:12:12] ⏳ P3 espera R3 (retenido por P9).
+[21:12:12] ⚠️ PREVENCIÓN: P3 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:12:13] ⏳ P1 espera R5 (retenido por P3).
+[21:12:14] ✅ P4 obtuvo R1. [5/5]
+[21:12:14] 🏁 P4 ha completado todas sus solicitudes y liberó sus recursos.
+[21:12:15] ⏳ P5 espera R4 (retenido por P3).
+[21:12:16] ⏳ P6 espera R3 (retenido por P9).
+[21:12:16] ⚠️ PREVENCIÓN: P2 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:12:17] ⚠️ PREVENCIÓN: P1 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:12:18] ⚠️ PREVENCIÓN: P3 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:12:18] 🔁 P3 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:12:19] ⚠️ PREVENCIÓN: P2 intentó pedir R6 fuera de orden. Solicitud denegada.
+[21:12:19] ✅ P6 obtuvo R0. [6/7]
+[21:12:20] ⏳ P5 espera R0 (retenido por P6).
+[21:12:21] ✅ P3 obtuvo R4. [5/7]
+[21:12:22] ⏳ P9 espera R3 (retenido por P9).
+[21:12:22] ⚠️ PREVENCIÓN: P1 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:12:23] ⚠️ PREVENCIÓN: P6 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:12:24] ⏳ P9 espera R9 (retenido por P1).
+[21:12:25] ✅ P5 obtuvo R5. [1/7]
+[21:12:26] ⚠️ PREVENCIÓN: P9 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:12:26] ⚠️ PREVENCIÓN: P2 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:12:27] ⏳ P9 espera R9 (retenido por P1).
+[21:12:28] ⚠️ PREVENCIÓN: P9 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:12:28] 🔁 P9 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:12:29] ⚠️ PREVENCIÓN: P1 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:12:29] ⏳ P9 espera R6 (retenido por P6).
+[21:12:30] ⏳ P9 espera R8 (retenido por P2).
+[21:12:31] ⚠️ PREVENCIÓN: P2 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:12:32] ⚠️ PREVENCIÓN: P6 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:12:32] ⚠️ PREVENCIÓN: P1 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:12:32] 🔁 P1 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:12:33] ✅ P9 obtuvo R3. [3/4]
+[21:12:34] ⏳ P1 espera R0 (retenido por P6).
+[21:12:35] ⏳ P1 espera R2 (retenido por P2).
+[21:12:36] ⚠️ PREVENCIÓN: P9 intentó pedir R5 fuera de orden. Solicitud denegada.
+[21:12:36] ⏳ P1 espera R6 (retenido por P6).
+[21:12:37] ⚠️ PREVENCIÓN: P5 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:12:38] ⏳ P1 espera R0 (retenido por P6).
+[21:12:39] ⏳ P9 espera R8 (retenido por P2).
+[21:12:39] ⏳ P9 espera R3 (retenido por P9).
+[21:12:40] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:12:41] ✅ P1 obtuvo R7. [5/7]
+[21:12:42] ⚠️ PREVENCIÓN: P1 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:12:42] ⚠️ PREVENCIÓN: P6 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:12:43] ⏳ P9 espera R8 (retenido por P2).
+[21:12:44] ⏳ P1 espera R7 (retenido por P1).
+[21:12:45] ⚠️ PREVENCIÓN: P3 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:12:46] ⏳ P3 espera R3 (retenido por P9).
+[21:12:46] ⏳ P9 espera R3 (retenido por P9).
+[21:12:47] ⚠️ PREVENCIÓN: P2 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:12:47] 🔁 P2 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:12:48] ⏳ P5 espera R6 (retenido por P6).
+[21:12:49] ⏳ P1 espera R7 (retenido por P1).
+[21:12:49] ⚠️ PREVENCIÓN: P9 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:12:49] 🔁 P9 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:12:50] ⚠️ PREVENCIÓN: P1 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:12:51] ✅ P9 obtuvo R3. [4/4]
+[21:12:51] 🏁 P9 ha completado todas sus solicitudes y liberó sus recursos.
+[21:12:52] ⚠️ PREVENCIÓN: P1 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:12:52] ⏳ P2 espera R5 (retenido por P5).
+[21:12:53] ⏳ P3 espera R4 (retenido por P3).
+[21:12:54] ⚠️ PREVENCIÓN: P6 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:12:55] ⏳ P2 espera R0 (retenido por P6).
+[21:12:55] ⚠️ PREVENCIÓN: P5 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:12:56] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:12:57] ✅ P1 obtuvo R3. [6/7]
+[21:12:58] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:12:58] 🔁 P5 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:12:59] ⚠️ PREVENCIÓN: P6 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:12:59] ⏳ P5 espera R7 (retenido por P1).
+[21:13:00] ✅ P5 obtuvo R1. [2/7]
+[21:13:01] ⚠️ PREVENCIÓN: P6 intentó pedir R3 fuera de orden. Solicitud denegada.
+[21:13:01] 🔁 P6 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:13:02] ⚠️ PREVENCIÓN: P3 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:13:02] ⚠️ PREVENCIÓN: P5 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:13:03] ⏳ P3 espera R7 (retenido por P1).
+[21:13:04] ⚠️ PREVENCIÓN: P1 intentó pedir R8 fuera de orden. Solicitud denegada.
+[21:13:05] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:13:05] ⚠️ PREVENCIÓN: P5 intentó pedir R3 fuera de orden. Solicitud denegada.
+[21:13:06] ⏳ P2 espera R1 (retenido por P5).
+[21:13:07] ⏳ P6 espera R1 (retenido por P5).
+[21:13:08] ✅ P2 obtuvo R8. [6/7]
+[21:13:08] ✅ P3 obtuvo R5. [6/7]
+[21:13:09] ⚠️ PREVENCIÓN: P2 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:13:10] ⏳ P6 espera R4 (retenido por P3).
+[21:13:11] ⏳ P1 espera R5 (retenido por P3).
+[21:13:12] ⚠️ PREVENCIÓN: P2 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:13:12] ✅ P5 obtuvo R6. [3/7]
+[21:13:13] ✅ P1 obtuvo R2. [7/7]
+[21:13:13] 🏁 P1 ha completado todas sus solicitudes y liberó sus recursos.
+[21:13:14] ⚠️ PREVENCIÓN: P2 intentó pedir R7 fuera de orden. Solicitud denegada.
+[21:13:15] ⏳ P6 espera R6 (retenido por P5).
+[21:13:15] ⚠️ PREVENCIÓN: P5 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:13:16] ⏳ P6 espera R5 (retenido por P3).
+[21:13:17] ⏳ P6 espera R5 (retenido por P3).
+[21:13:18] ⏳ P2 espera R5 (retenido por P3).
+[21:13:18] ⏳ P2 espera R5 (retenido por P3).
+[21:13:19] ⏳ P5 espera R6 (retenido por P5).
+[21:13:20] ✅ P2 obtuvo R3. [7/7]
+[21:13:20] 🏁 P2 ha completado todas sus solicitudes y liberó sus recursos.
+[21:13:21] ✅ P6 obtuvo R0. [7/7]
+[21:13:21] 🏁 P6 ha completado todas sus solicitudes y liberó sus recursos.
+[21:13:21] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:13:22] ⚠️ PREVENCIÓN: P5 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:13:23] ⏳ P5 espera R6 (retenido por P5).
+[21:13:24] ⏳ P3 espera R5 (retenido por P3).
+[21:13:24] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:13:24] 🔁 P5 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:13:25] ⚠️ PREVENCIÓN: P3 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:13:26] ⚠️ PREVENCIÓN: P3 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:13:27] ✅ P5 obtuvo R2. [4/7]
+[21:13:27] ⚠️ PREVENCIÓN: P3 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:13:28] ✅ P5 obtuvo R8. [5/7]
+[21:13:29] ⚠️ PREVENCIÓN: P5 intentó pedir R3 fuera de orden. Solicitud denegada.
+[21:13:30] ✅ P5 obtuvo R6. [6/7]
+[21:13:30] ⏳ P3 espera R6 (retenido por P5).
+[21:13:31] ⚠️ PREVENCIÓN: P3 intentó pedir R1 fuera de orden. Solicitud denegada.
+[21:13:31] 🔁 P3 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:13:32] ⏳ P3 espera R6 (retenido por P5).
+[21:13:33] ⚠️ PREVENCIÓN: P5 intentó pedir R9 fuera de orden. Solicitud denegada.
+[21:13:34] ✅ P3 obtuvo R4. [7/7]
+[21:13:34] 🏁 P3 ha completado todas sus solicitudes y liberó sus recursos.
+[21:13:34] ⚠️ PREVENCIÓN: P5 intentó pedir R0 fuera de orden. Solicitud denegada.
+[21:13:35] ⚠️ PREVENCIÓN: P5 intentó pedir R2 fuera de orden. Solicitud denegada.
+[21:13:36] ⏳ P5 espera R6 (retenido por P5).
+[21:13:37] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:13:37] ⚠️ PREVENCIÓN: P5 intentó pedir R4 fuera de orden. Solicitud denegada.
+[21:13:37] 🔁 P5 reinicia su ciclo de solicitudes para evitar espera circular.
+[21:13:38] ✅ P5 obtuvo R6. [7/7]
+[21:13:38] 🏁 P5 ha completado todas sus solicitudes y liberó sus recursos.
+[21:13:39] ✅ Simulación finalizada — todos los procesos completaron sus solicitudes.
+[21:13:39] 📊 Métricas guardadas en: data\logs_prevencion\simulacion_prevencion_metrics.txt

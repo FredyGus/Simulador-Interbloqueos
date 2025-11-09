@@ -1,0 +1,7 @@
+--- MÉTRICAS DE SIMULACIÓN DE PREVENCIÓN ---
+Solicitudes totales: 325
+Solicitudes aceptadas: 53
+Solicitudes denegadas: 126
+Procesos completados: 10
+Duración total (s): 250.56
+Duración promedio por proceso (s): 25.06

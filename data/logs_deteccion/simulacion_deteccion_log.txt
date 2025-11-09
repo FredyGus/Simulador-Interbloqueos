@@ -1,76 +1,24 @@
-[11:38:32] Simulación Iniciada (Múltiples Interbloqueos Forzados).
-[11:38:32] ASIGNADO: P0 a R0. Estado: Ejecutando
-[11:38:32] ASIGNADO: P1 a R1. Estado: Ejecutando
-[11:38:33] ASIGNADO: P2 a R2. Estado: Ejecutando
-[11:38:33] ASIGNADO: P3 a R6. Estado: Ejecutando
-[11:38:34] ASIGNADO: P4 a R4. Estado: Ejecutando
-[11:38:34] ASIGNADO: P5 a R7. Estado: Ejecutando
-[11:38:35] ASIGNADO: P6 a R3. Estado: Ejecutando
-[11:38:35] ASIGNADO: P7 a R8. Estado: Ejecutando
-[11:38:36] ASIGNADO: P8 a R5. Estado: Ejecutando
-[11:38:37] ASIGNADO: P9 a R9. Estado: Ejecutando
-[11:38:37] BLOQUEO: P0 solicita R1, retenido por P1.
-[11:38:38] BLOQUEO: P1 solicita R0, retenido por P0.
-[11:38:38] !!! INTERBLOQUEO DETECTADO !!! Ciclo: ['P0', 'P1'].
-[11:38:42] 💀 RESOLVIENDO: Matando a la víctima P1 del ciclo ['P0', 'P1'] (Posee 1 recursos).
-[11:38:42] LIBERADO: P1 liberó el recurso R1.
-[11:38:42] Despertando a P0. Recurso R1 liberado.
-[11:38:42] ASIGNADO: P0 a R1. Estado: Ejecutando
-[11:38:42] Proceso P1 Reiniciado y puesto en la cola de listos.
-[11:38:43] BLOQUEO: P1 solicita R1, retenido por P0.
-[11:38:44] BLOQUEO: P2 solicita R3, retenido por P6.
-[11:38:44] 🌟 TERMINACIÓN: P3 completó su tarea con R6 y R6.
-[11:38:44] LIBERADO: P3 liberó el recurso R6.
-[11:38:45] BLOQUEO: P4 solicita R5, retenido por P8.
-[11:38:46] BLOQUEO: P6 solicita R2, retenido por P2.
-[11:38:46] !!! INTERBLOQUEO DETECTADO !!! Ciclo: ['P2', 'P6'].
-[11:38:50] 💀 RESOLVIENDO: Matando a la víctima P6 del ciclo ['P2', 'P6'] (Posee 1 recursos).
-[11:38:50] LIBERADO: P6 liberó el recurso R3.
-[11:38:50] Despertando a P2. Recurso R3 liberado.
-[11:38:50] ASIGNADO: P2 a R3. Estado: Ejecutando
-[11:38:50] Proceso P6 Reiniciado y puesto en la cola de listos.
-[11:38:51] BLOQUEO: P6 solicita R3, retenido por P2.
-[11:38:52] BLOQUEO: P8 solicita R4, retenido por P4.
-[11:38:52] !!! INTERBLOQUEO DETECTADO !!! Ciclo: ['P4', 'P8'].
-[11:38:56] 💀 RESOLVIENDO: Matando a la víctima P8 del ciclo ['P4', 'P8'] (Posee 1 recursos).
-[11:38:56] LIBERADO: P8 liberó el recurso R5.
-[11:38:56] Despertando a P4. Recurso R5 liberado.
-[11:38:56] ASIGNADO: P4 a R5. Estado: Ejecutando
-[11:38:56] Proceso P8 Reiniciado y puesto en la cola de listos.
-[11:38:57] BLOQUEO: P8 solicita R5, retenido por P4.
-[11:38:58] 🌟 TERMINACIÓN: P9 completó su tarea con R9 y R9.
-[11:38:58] LIBERADO: P9 liberó el recurso R9.
-[11:38:58] 🌟 TERMINACIÓN: P0 completó su tarea con R0 y R1.
-[11:38:58] LIBERADO: P0 liberó el recurso R0.
-[11:38:58] LIBERADO: P0 liberó el recurso R1.
-[11:38:58] Despertando a P1. Recurso R1 liberado.
-[11:38:58] ASIGNADO: P1 a R1. Estado: Ejecutando
-[11:38:59] ASIGNADO: P1 a R0. Estado: Ejecutando
-[11:39:00] 🌟 TERMINACIÓN: P4 completó su tarea con R4 y R5.
-[11:39:00] LIBERADO: P4 liberó el recurso R4.
-[11:39:00] LIBERADO: P4 liberó el recurso R5.
-[11:39:00] Despertando a P8. Recurso R5 liberado.
-[11:39:00] ASIGNADO: P8 a R5. Estado: Ejecutando
-[11:39:00] 🌟 TERMINACIÓN: P5 completó su tarea con R7 y R7.
-[11:39:00] LIBERADO: P5 liberó el recurso R7.
-[11:39:01] 🌟 TERMINACIÓN: P7 completó su tarea con R8 y R8.
-[11:39:01] LIBERADO: P7 liberó el recurso R8.
-[11:39:02] ASIGNADO: P8 a R4. Estado: Ejecutando
-[11:39:03] 🌟 TERMINACIÓN: P1 completó su tarea con R1 y R0.
-[11:39:03] LIBERADO: P1 liberó el recurso R0.
-[11:39:03] LIBERADO: P1 liberó el recurso R1.
-[11:39:04] 🌟 TERMINACIÓN: P8 completó su tarea con R5 y R4.
-[11:39:04] LIBERADO: P8 liberó el recurso R4.
-[11:39:04] LIBERADO: P8 liberó el recurso R5.
-[11:39:05] 🌟 TERMINACIÓN: P2 completó su tarea con R2 y R3.
-[11:39:05] LIBERADO: P2 liberó el recurso R2.
-[11:39:05] LIBERADO: P2 liberó el recurso R3.
-[11:39:05] Despertando a P6. Recurso R3 liberado.
-[11:39:05] ASIGNADO: P6 a R3. Estado: Ejecutando
-[11:39:05] ASIGNADO: P6 a R2. Estado: Ejecutando
-[11:39:06] 🌟 TERMINACIÓN: P6 completó su tarea con R3 y R2.
-[11:39:06] LIBERADO: P6 liberó el recurso R2.
-[11:39:06] LIBERADO: P6 liberó el recurso R3.
-[11:39:07] ✅ OBJETIVO CUMPLIDO: Todos los procesos han terminado exitosamente.
-[11:39:07] Métricas generadas en data/logs_deteccion/simulacion_deteccion_metrics.txt
-[11:39:07] Simulación Finalizada. Tiempo total: 35.18 segundos.
+[20:16:06] Simulación Iniciada (Múltiples Interbloqueos Forzados).
+[20:16:06] ASIGNADO: P0 a R0. Estado: Ejecutando
+[20:16:07] ASIGNADO: P1 a R1. Estado: Ejecutando
+[20:16:07] ASIGNADO: P2 a R2. Estado: Ejecutando
+[20:16:08] ASIGNADO: P3 a R6. Estado: Ejecutando
+[20:16:09] ASIGNADO: P4 a R4. Estado: Ejecutando
+[20:16:09] ASIGNADO: P5 a R7. Estado: Ejecutando
+[20:16:10] ASIGNADO: P6 a R3. Estado: Ejecutando
+[20:16:10] ASIGNADO: P7 a R8. Estado: Ejecutando
+[20:16:11] ASIGNADO: P8 a R5. Estado: Ejecutando
+[20:16:11] ASIGNADO: P9 a R9. Estado: Ejecutando
+[20:16:12] BLOQUEO: P0 solicita R1, retenido por P1.
+[20:16:12] BLOQUEO: P1 solicita R0, retenido por P0.
+[20:16:12] !!! INTERBLOQUEO DETECTADO !!! Ciclo: ['P0', 'P1'].
+[20:17:17] 💀 RESOLVIENDO: Matando a la víctima P0 del ciclo ['P0', 'P1'] (Posee 1 recursos).
+[20:17:17] LIBERADO: P0 liberó el recurso R0.
+[20:17:17] Despertando a P1. Recurso R0 liberado.
+[20:17:17] ASIGNADO: P1 a R0. Estado: Ejecutando
+[20:17:17] Proceso P0 Reiniciado y puesto en la cola de listos.
+[20:18:06] 🌟 TERMINACIÓN: P1 completó su tarea con R1 y R0.
+[20:18:06] LIBERADO: P1 liberó el recurso R0.
+[20:18:06] LIBERADO: P1 liberó el recurso R1.
+[20:18:06] Métricas generadas en data\logs_deteccion\simulacion_deteccion_metrics.txt
+[20:18:06] Simulación Finalizada. Tiempo total: 119.85 segundos.

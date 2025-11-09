@@ -142,16 +142,23 @@ class MainApp(ttk.Window):
                 bootstyle="success",
                 command=self.launch_deteccion_window,
             )
+        elif policy_name == "Prevencion":
+            start_button = ttk.Button(
+                self.content_frame,
+                text="▶ Iniciar Simulacion de Prevencion",
+                bootstyle="success",
+                command=self.launch_prevencion_window,
+            )
         else: 
             start_button = ttk.Button(
-            self.content_frame,
-            text="▶ Iniciar simulación",
-            bootstyle="secondary",
-            command=lambda: messagebox.showinfo(
+                self.content_frame,
+                text="▶ Iniciar simulación",
+                bootstyle="secondary",
+                command=lambda: messagebox.showinfo(
                 "Simulación",
                 f"La simulación de '{policy_name}' aún no está implementada."
-            ),
-        )
+                ),
+            )
         start_button.pack(pady=30)
 
     def launch_deteccion_window(self):
@@ -174,6 +181,28 @@ class MainApp(ttk.Window):
             messagebox.showerror(
                 "Error",
                 f"No se pudo abrir el simulador de Deteccion.\nError: {e}"
+            )
+            
+    def launch_prevencion_window(self):
+        # Abre el simulador de prevencion en una ventana independiente
+        try:
+            # Ruta del archivo 
+            script_path = os.path.join(os.getcwd(), "simuladores", "simulador_prevencion.py")
+
+            # Ejecutar en una nueva ventana del sistema
+            subprocess.Popen(["python", script_path])
+
+            self.activate_button(lambda: None, "Prevencion") # Mantener el boton activo
+
+            messagebox.showinfo(
+                "Simulador de Prevencion",
+                "Se ha abierto el simulador de Prevencion en una ventana nueva.\n"
+                "Puedes cerrarla cuando finalice la simulacion."
+            )
+        except Exception as e:
+            messagebox.showerror(
+                "Error",
+                f"No se pudo abrir el simulador de Prevencion.\nError: {e}"
             )
 
     def exit_app(self):
