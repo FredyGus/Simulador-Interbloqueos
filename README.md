@@ -20,7 +20,7 @@
   - 🎯 [Objetivo del Simulador](#-objetivo-del-simulador)
   - 🔍 [¿Qué hace este simulador?](#-qué-hace-este-simulador)
   - 🎮 [Experiencia de uso](#-experiencia-de-uso)
-  - 👨‍🏫 [¿Para quién está pensado?](#-para-quién-está-pensado)
+  - 👨‍🏫 [¿Para quién está pensado?](#‍-para-quién-está-pensado)
 - 🛠️ [Tecnologías Utilizadas](#️-tecnologías-utilizadas)
 - ✨ [Características Principales](#-características-principales)
 - 🧠 [Algoritmos Implementados](#-algoritmos-implementados)
@@ -605,3 +605,4 @@ Simulador-Interbloqueos/
 ├── README.md
 └── requirements.txt
 ```
+
