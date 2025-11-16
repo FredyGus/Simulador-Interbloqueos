@@ -76,7 +76,7 @@ Los interbloqueos son uno de los problemas más críticos en sistemas operativos
 
 Para que un interbloqueo pueda existir, deben cumplirse *simultáneamente* las siguientes **cuatro condiciones necesarias**:
 
-#### 1️⃣ Mutua exclusión  
+#### 1️⃣ Exclusión mutua  
 Al menos un recurso debe estar en un estado *no compartible*, es decir, solo puede ser usado por un proceso a la vez.  
 Ejemplo: una impresora o un semáforo binario.
 
@@ -636,5 +636,6 @@ Simulador-Interbloqueos/
 ├── README.md
 └── requirements.txt
 ```
+
 
 
