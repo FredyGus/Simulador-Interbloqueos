@@ -1,14 +1,45 @@
-# 🖥️ Simulador de Interbloqueos 🖥️
+<h1 align="center">🖥️⚙️ Simulador de Interbloqueos ⚙️🖥️</h1>
 
-![build](https://img.shields.io/badge/build-passing-brightgreen)
-![python](https://img.shields.io/badge/Python-3.10+-blue)
-![gui](https://img.shields.io/badge/GUI-Tkinter%20%2B%20ttkbootstrap-7952B3)
-![graph](https://img.shields.io/badge/Grafos-NetworkX-orange)
-![plots](https://img.shields.io/badge/Visualización-Matplotlib-blueviolet)
-![status](https://img.shields.io/badge/Estado-Estable-success)
-![os](https://img.shields.io/badge/Compatible-Windows%20%7C%20Linux%20%7C%20macOS-informational)
+<p align="center">
+  <em>Una herramienta visual, interactiva y educativa para comprender cómo ocurren, se detectan y se evitan los interbloqueos en sistemas operativos.</em>
+</p>
 
----
+<div align="center">
+
+<!-- Status -->
+<img src="https://img.shields.io/badge/BUILD-PASSING-4CAF50?style=for-the-badge" alt="Build Passing">
+<img src="https://img.shields.io/badge/ESTADO-ESTABLE-43A047?style=for-the-badge" alt="Estado Estable">
+
+<!-- Programming -->
+<img src="https://img.shields.io/badge/PYTHON-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/LENGUAJE-PYTHON-yellow?style=for-the-badge" alt="Lenguaje">
+
+<!-- GUI -->
+<img src="https://img.shields.io/badge/INTERFAZ-TKINTER%20%2B%20TTKBOOTSTRAP-7E57C2?style=for-the-badge" alt="Tkinter GUI">
+
+<!-- Graphs -->
+<img src="https://img.shields.io/badge/GRAFOS-NETWORKX-F57C00?style=for-the-badge" alt="NetworkX">
+<img src="https://img.shields.io/badge/VISUALIZACIÓN-MATPLOTLIB-9C27B0?style=for-the-badge" alt="Matplotlib">
+
+<!-- Algorithms -->
+<img src="https://img.shields.io/badge/ALGORITMOS-PREV.%20%7C%20EVIT.%20%7C%20DETEC.%20%7C%20IGNORAR-00897B?style=for-the-badge" alt="Algoritmos">
+
+<!-- Academic -->
+<img src="https://img.shields.io/badge/PROYECTO-ACADÉMICO-0288D1?style=for-the-badge" alt="Académico">
+
+<!-- OS -->
+<img src="https://img.shields.io/badge/COMPATIBLE-WINDOWS%20%7C%20LINUX%20%7C%20MACOS-3949AB?style=for-the-badge" alt="Compatible">
+
+<!-- UI Theme -->
+<img src="https://img.shields.io/badge/TEMA-DARK%20%2F%20LIGHT-5E35B1?style=for-the-badge" alt="Theme">
+
+<!-- Architecture -->
+<img src="https://img.shields.io/badge/ARQUITECTURA-MODULAR-6D4C41?style=for-the-badge" alt="Arquitectura">
+
+</div>
+
+<hr>
+
 
 ## 📚 Tabla de Contenidos  
 - 🔄 [Interbloqueos (Deadlocks)](#-interbloqueos-deadlocks)
@@ -605,4 +636,5 @@ Simulador-Interbloqueos/
 ├── README.md
 └── requirements.txt
 ```
+
 
