@@ -156,6 +156,13 @@ class MainApp(ttk.Window):
                 bootstyle="success",
                 command=self.launch_evitacion_window,
             )
+        elif policy_name == "Ignorar":
+            start_button = ttk.Button(
+                self.content_frame,
+                text="▶ Iniciar Simulacion de Ignorar",
+                bootstyle="success",
+                command=self.launch_ignorar_window,
+            )
         else: 
             start_button = ttk.Button(
                 self.content_frame,
@@ -231,6 +238,28 @@ class MainApp(ttk.Window):
             messagebox.showerror(
                 "Error",
                 f"No se pudo abrir el simulador de Evitacion.\nError: {e}"
+            )
+            
+    def launch_ignorar_window(self):
+        # Abre el simulador de ignorar en una ventana independiente
+        try:
+            # Ruta del archivo 
+            script_path = os.path.join(os.getcwd(), "simuladores", "simulador_ignorar.py")
+
+            # Ejecutar en una nueva ventana del sistema
+            subprocess.Popen(["python", script_path])
+
+            self.activate_button(lambda: None, "Ignorar") # Mantener el boton activo
+
+            messagebox.showinfo(
+                "Simulador de Ignorar",
+                "Se ha abierto el simulador de Ignorar en una ventana nueva.\n"
+                "Puedes cerrarla cuando finalice la simulacion."
+            )
+        except Exception as e:
+            messagebox.showerror(
+                "Error",
+                f"No se pudo abrir el simulador de Ignorar.\nError: {e}"
             )
 
     def exit_app(self):
