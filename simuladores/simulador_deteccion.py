@@ -12,8 +12,8 @@ DATA_DIR = os.path.join("data", "logs_deteccion")
 
 # --- 1. CONFIGURACIÓN INICIAL ---
 NUM_PROCESOS = 10
-LOG_FILENAME = os.path.join(DATA_DIR, "simulacion_deteccion_log.txt")
-METRICS_FILENAME = os.path.join(DATA_DIR, "simulacion_deteccion_metrics.txt")
+LOG_FILENAME = os.path.join(DATA_DIR, "simulacion_deadlock_log.txt")
+METRICS_FILENAME = os.path.join(DATA_DIR, "simulacion_deadlock_metrics.txt")
 
 # --- 2. CLASES DEL SISTEMA ---
 
@@ -176,6 +176,7 @@ class SimuladorDeadlock:
     def notificar_y_resolver(self):
         
         self.dibujar_grafo() 
+        self.actualizar_indicadores_deadlock(is_deadlock_detected=True) # Actualizar indicadores a Verde Total
         
         if self.after_id:
             self.root.after_cancel(self.after_id)
@@ -193,6 +194,7 @@ class SimuladorDeadlock:
         
         if not self.deadlock_cycle:
             self.log_event("ADVERTENCIA: Intento de resolución sin ciclo detectado. Continuando simulación.")
+            self.actualizar_indicadores_deadlock()
             self.ciclo_simulacion()
             return
             
@@ -202,6 +204,7 @@ class SimuladorDeadlock:
         if not procesos_en_ciclo:
             self.log_event("ADVERTENCIA: Ciclo detectado pero procesos no encontrados. Continuando simulación.")
             self.deadlock_cycle = None
+            self.actualizar_indicadores_deadlock()
             self.ciclo_simulacion()
             return
 
@@ -227,6 +230,7 @@ class SimuladorDeadlock:
                              f"Medidas correctivas aplicadas.\n"
                              f"Proceso **{victima.id}** finalizado (reiniciado) para romper el ciclo.")
         
+        self.actualizar_indicadores_deadlock() # Los indicadores vuelven a rojo (al romperse el ciclo)
         self.ciclo_simulacion()
 
     def reiniciar_proceso(self, proceso_victima):
@@ -242,6 +246,57 @@ class SimuladorDeadlock:
             if p.solicitando and self.recursos.get(p.solicitando) is None:
                 self.log_event(f"Despertando a {p.id}. Recurso {p.solicitando} liberado.")
                 self.solicitar_recurso(p, p.solicitando)
+
+    # --- INDICADORES DE DEADLOCK (NUEVA FUNCIÓN) ---
+    
+    def _get_deadlock_conditions_state(self):
+        """
+        Evalúa las 4 condiciones de interbloqueo.
+        Retorna un diccionario de booleanos: {condicion: cumple}
+        """
+        
+        # 1. Exclusión Mutua 
+        # Todos los recursos en esta simulación son no compartibles (una sola instancia).
+        mutua_exclusiva = True 
+        
+        # 2. Retención y Espera 
+        # ¿Existe al menos un proceso que tiene un recurso y está esperando otro?
+        retencion_y_espera = any(len(p.asignados) > 0 and p.solicitando is not None for p in self.procesos)
+        
+        # 3. No Expropiación 
+        # Los recursos no pueden ser tomados a la fuerza (solo se liberan voluntariamente por el proceso al terminar o al ser víctima).
+        no_expropiación = True 
+        
+        # 4. Espera Circular 
+        # ¿Se ha detectado un ciclo en el Grafo de Espera?
+        espera_circular = self.deadlock_cycle is not None
+        
+        return {
+            "Exclusión Mutua": mutua_exclusiva,
+            "Retención y Espera": retencion_y_espera,
+            "No Expropiación": no_expropiación,
+            "Espera Circular": espera_circular
+        }
+
+    def actualizar_indicadores_deadlock(self, is_deadlock_detected=False):
+        """Actualiza los colores de los indicadores LED en la GUI."""
+        
+        conditions = self._get_deadlock_conditions_state()
+        
+        # Forzar todos a verde si la detección de ciclo es True
+        if is_deadlock_detected:
+            color_em = color_re = color_np = color_ec = 'green'
+        else:
+            color_em = 'green' if conditions["Exclusión Mutua"] else 'red'
+            color_re = 'green' if conditions["Retención y Espera"] else 'red'
+            color_np = 'green' if conditions["No Expropiación"] else 'red'
+            color_ec = 'green' if conditions["Espera Circular"] else 'red' # Se pondrá en verde justo cuando se detecta el ciclo
+
+        self.led_em.config(bg=color_em)
+        self.led_re.config(bg=color_re)
+        self.led_np.config(bg=color_np)
+        self.led_ec.config(bg=color_ec)
+
 
     # --- 5. LOG Y GRÁFICOS ---
 
@@ -353,11 +408,35 @@ class SimuladorDeadlock:
         self.graph_info_label = tk.Label(graph_frame, text="Información del Grafo", justify=tk.LEFT, anchor="nw", bg='white', font=('Consolas', 10))
         self.graph_info_label.grid(row=1, column=0, sticky="ew", pady=5) 
         
-        log_frame = ttk.LabelFrame(main_frame, text="Registro de Eventos (Log)", padding="5")
-        log_frame.pack(side="right", fill="y", padx=10)
+        right_panel = ttk.Frame(main_frame)
+        right_panel.pack(side="right", fill="y", padx=10)
 
-        self.log_text = scrolledtext.ScrolledText(log_frame, width=60, height=30, wrap=tk.WORD)
+        # --- NUEVO: Panel de Indicadores de Deadlock ---
+        deadlock_conditions_frame = ttk.LabelFrame(right_panel, text="Condiciones de Deadlock", padding="5")
+        deadlock_conditions_frame.pack(fill="x", pady=5)
+
+        condiciones = ["Exclusión Mutua", "Retención y Espera", "No Preemptividad", "Espera Circular"]
+        self.leds = []
+        
+        for i, cond in enumerate(condiciones):
+            ttk.Label(deadlock_conditions_frame, text=f"{cond}:", anchor="w").grid(row=i, column=0, sticky="w", padx=5, pady=2)
+            
+            # Etiqueta LED (círculo)
+            led = tk.Label(deadlock_conditions_frame, text="●", font=('Arial', 16), fg='black', bg='red', width=2)
+            led.grid(row=i, column=1, sticky="e", padx=5, pady=2)
+            self.leds.append(led)
+
+        # Asignar a variables de instancia para poder actualizarlos
+        self.led_em, self.led_re, self.led_np, self.led_ec = self.leds
+        # --- FIN: Panel de Indicadores de Deadlock ---
+
+        log_frame = ttk.LabelFrame(right_panel, text="Registro de Eventos (Log)", padding="5")
+        log_frame.pack(fill="both", expand=True)
+
+        self.log_text = scrolledtext.ScrolledText(log_frame, width=60, height=25, wrap=tk.WORD) # Altura reducida
         self.log_text.pack(fill="y", expand=True)
+        
+        self.actualizar_indicadores_deadlock() # Estado inicial
 
     def calcular_metricas(self):
         tiempo_perdido = sum(p.tiempo_espera_total for p in self.procesos)
@@ -422,8 +501,9 @@ class SimuladorDeadlock:
                 self.liberar_recursos(proceso_actual)
                 proceso_actual.estado = "Terminado Exitosamente"
                 self.procesos_terminados_exitosamente.add(proceso_actual.id)
-            
+                
                 self.dibujar_grafo()
+                self.actualizar_indicadores_deadlock()
                 current_pid_num = int(proceso_actual.id.split('P')[1])
                 self.indice_proceso_actual = (current_pid_num + 1) % NUM_PROCESOS
                 
@@ -455,6 +535,7 @@ class SimuladorDeadlock:
         self.indice_proceso_actual = (current_pid_num + 1) % NUM_PROCESOS
         
         self.dibujar_grafo()
+        self.actualizar_indicadores_deadlock() # Actualiza después de la acción de solicitud/bloqueo
         self.after_id = self.root.after(500, self.ciclo_simulacion) 
         
 # --- MAIN ---

@@ -1,8 +1,8 @@
 --- MÉTRICAS DE LA SIMULACIÓN ---
-Total de Solicitudes: 12
-% de Solicitudes Satisfechas sin Bloqueos: 83.33
-% de Bloqueos Temporales: 16.67
-% de Interbloqueos Detectados: 8.33
+Total de Solicitudes: 9
+% de Solicitudes Satisfechas sin Bloqueos: 100.00
+% de Bloqueos Temporales: 0.00
+% de Interbloqueos Detectados: 0.00
 Procesos Víctimas (reiniciados): 0
 Procesos Terminados Exitosamente: 0
 Tiempo Perdido Total (s): 0

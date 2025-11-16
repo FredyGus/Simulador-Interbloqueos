@@ -172,7 +172,7 @@ class MainApp(ttk.Window):
         # Abre el simulador de deteccion en una ventana independiente
         try:
             # Ruta del archivo 
-            script_path = os.path.join(os.getcwd(), "simuladores", "simulador_deadlock.py")
+            script_path = os.path.join(os.getcwd(), "simuladores", "simulador_deteccion.py")
 
             # Ejecutar en una nueva ventana del sistema
             subprocess.Popen(["python", script_path])
