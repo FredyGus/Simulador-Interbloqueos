@@ -149,6 +149,13 @@ class MainApp(ttk.Window):
                 bootstyle="success",
                 command=self.launch_prevencion_window,
             )
+        elif policy_name == "Evitacion":
+            start_button = ttk.Button(
+                self.content_frame,
+                text="▶ Iniciar Simulacion de Evitacion",
+                bootstyle="success",
+                command=self.launch_evitacion_window,
+            )
         else: 
             start_button = ttk.Button(
                 self.content_frame,
@@ -165,7 +172,7 @@ class MainApp(ttk.Window):
         # Abre el simulador de deteccion en una ventana independiente
         try:
             # Ruta del archivo 
-            script_path = os.path.join(os.getcwd(), "simuladores", "simulador_deteccion.py")
+            script_path = os.path.join(os.getcwd(), "simuladores", "simulador_deadlock.py")
 
             # Ejecutar en una nueva ventana del sistema
             subprocess.Popen(["python", script_path])
@@ -203,6 +210,27 @@ class MainApp(ttk.Window):
             messagebox.showerror(
                 "Error",
                 f"No se pudo abrir el simulador de Prevencion.\nError: {e}"
+            )
+    
+    def launch_evitacion_window(self):
+        # Abre el simulador de evitacion en una ventana independiente
+        try:
+            # Ruta del archivo
+            script_path = os.path.join(os.getcwd(), "simuladores", "simulador_banquero.py")
+            
+            # Ejecutar en una nueva ventana del sistema
+            subprocess.Popen(["python", script_path])
+            
+            self.activate_button(lambda: None, "Evitacion") # Mantener el boton activo
+            messagebox.showinfo(
+                "Simulador de Evitacion",
+                "Se ha abierto el simulador de Evitacion en una ventana nueva.\n"
+                "Puedes cerrarla cuando finalice la simulacion."
+            )
+        except Exception as e:
+            messagebox.showerror(
+                "Error",
+                f"No se pudo abrir el simulador de Evitacion.\nError: {e}"
             )
 
     def exit_app(self):

@@ -1,0 +1,16 @@
+[17:59:28] Simulación Iniciada (Múltiples Interbloqueos Forzados).
+[17:59:28] ASIGNADO: P0 a R0. Estado: Ejecutando
+[17:59:29] ASIGNADO: P1 a R1. Estado: Ejecutando
+[17:59:29] ASIGNADO: P2 a R2. Estado: Ejecutando
+[17:59:30] ASIGNADO: P3 a R6. Estado: Ejecutando
+[17:59:31] ASIGNADO: P4 a R4. Estado: Ejecutando
+[17:59:31] ASIGNADO: P5 a R7. Estado: Ejecutando
+[17:59:32] ASIGNADO: P6 a R3. Estado: Ejecutando
+[17:59:32] ASIGNADO: P7 a R8. Estado: Ejecutando
+[17:59:33] ASIGNADO: P8 a R5. Estado: Ejecutando
+[17:59:33] ASIGNADO: P9 a R9. Estado: Ejecutando
+[17:59:34] BLOQUEO: P0 solicita R1, retenido por P1.
+[17:59:34] BLOQUEO: P1 solicita R0, retenido por P0.
+[17:59:34] !!! INTERBLOQUEO DETECTADO !!! Ciclo: ['P0', 'P1'].
+[17:59:36] Métricas generadas en data\logs_deteccion\simulacion_deadlock_metrics.txt
+[17:59:36] Simulación Finalizada. Tiempo total: 8.20 segundos.
