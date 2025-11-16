@@ -38,7 +38,24 @@
 
 </div>
 
-<hr>
+---
+
+## 🏫 Universidad Mariano Gálvez de Guatemala  
+### Facultad de Ingeniería en Sistemas  
+### Ingeniería en Sistemas de Información y Ciencias de la Computación  
+### Proyecto: Simulador de Interbloqueos
+
+
+## 👥 Integrantes del Grupo
+
+| **Nombre Completo**                        | **Carnet**        |
+|--------------------------------------------|--------------------|
+| Jeffrie Otoniel Argueta López              | 5090-23-8396       |
+| Daniel Eduardo Samayoa                     | 5090-23-9260       |
+| Fredy Gustavo Pérez Calel                  | 5090-24-6143       |
+| Edwin Emanuel Hernández Velásquez          | 5090-23-14537      |
+
+---
 
 
 ## 📚 Tabla de Contenidos  
@@ -636,6 +653,7 @@ Simulador-Interbloqueos/
 ├── README.md
 └── requirements.txt
 ```
+
 
 
 
